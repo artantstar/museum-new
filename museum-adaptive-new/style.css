@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --dark: #030303;
+  --red: #710707;
+  --gold: #9d8665;
+  --gold_active: #d2b183;
+  --gray-button: #b3b3b3;
+  --gray-input: #C4C4C4;
+  --gray-bullet: #999
+  --gray-bullet_active: #333;
+
+}
+
+/*убрать скролл бар */
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  /* width: 1920px; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+/* font-family: "Forum", cursive; */
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
